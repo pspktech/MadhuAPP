@@ -3,7 +3,7 @@ name: Build APK
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: # మాన్యువల్ గా కూడా రన్ చేయడానికి
+  workflow_dispatch: 
 
 jobs:
   build:
@@ -28,6 +28,7 @@ jobs:
         with:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
+          packager: pnpm
 
       - name: Build APK on EAS
         run: eas build --platform android --profile preview --non-interactive --no-wait
