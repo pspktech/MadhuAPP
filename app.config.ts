@@ -56,7 +56,7 @@ const config: ExpoConfig = {
   extra: {
     ...publicRuntime,
     eas: {
-      projectId: "881a3447-8251-4cac-af0b-c14e94b68504" // ఉదా: "f8a9b2c1-3d4e-5f6g-7h8i-9j0k1l2m3n4o"
+      projectId: "43854ae8-390a-4890-a181-6084c2c2a563" // ఉదా: "f8a9b2c1-3d4e-5f6g-7h8i-9j0k1l2m3n4o"
     }
   },
   // ⬆️ మార్పు ఇక్కడ చేశాను ⬆️
